@@ -1,0 +1,59 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tomi.ginatask.MainActivity" >
+
+    <TableRow
+        android:id="@+id/mapTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="14">
+
+        <com.tomi.ginatask.EditableMapView android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/buttonsTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ToggleButton
+            android:id="@+id/drawButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/draw"
+            android:textOn="@string/draw"
+            android:textOff="@string/draw"
+            android:layout_weight="1"
+            android:onClick="onToggleClicked"/>
+        <Button
+            android:id="@+id/cameraButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/camera"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/qrButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/qr_scan"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/deviceInfoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/info"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+
+
+</TableLayout>

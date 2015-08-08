@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloMap 3</string>
+    <string name="draw">Draw</string>
+    <string name="camera">Camera</string>
+    <string name="qr_scan">QR scan</string>
+    <string name="info">Info</string>
+    <string name="gcm_senderId">579889199637</string>
+
+</resources>
